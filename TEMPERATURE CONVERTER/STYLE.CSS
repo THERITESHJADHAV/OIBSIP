@@ -1,0 +1,75 @@
+*{
+    MARGIN:0;
+    PADDING:0;
+    font-family: 'POPPINS','SANS-SERIF';
+    BOX-SIZING:BORDER-BOX;
+}
+.CONTAINER{
+    WIDTH:100%;
+    HEIGHT:100VH;
+    background-color:#E3F9FF;
+    DISPLAY:FLEX;
+    justify-content: CENTER;               /*IT ALIGNS IT HORIZONTALLY CENTER*/
+    align-items: center;                   /*IT ALIGNS IT VERTICALLY CENTER*/
+}
+.CONVERTER{
+    BACKGROUND:#3A4452;
+    PADDING:20PX;
+    BORDER-RADIUS:10PX;
+}
+.HEADING{
+    COLOR:WHITE;
+    FONT-SIZE:40PX;
+    FONT-WEIGHT:900;
+    line-height: 50PX;
+}
+.COLUMN{
+    DISPLAY:FLEX;
+    justify-content:space-between;
+    PADDING:20PX;
+    FONT-SIZE:25PX;
+    COLOR:WHITE;
+}
+.INPUT_DEGREE{
+    WIDTH:150PX;
+    HEIGHT:25PX;
+    FONT-SIZE:20PX;
+    padding-inline-start: 20PX;
+}
+.INPUT_UNIT{
+    WIDTH:150PX;
+    HEIGHT:25PX;
+    FONT-SIZE:20PX;
+}
+.EMOJI{
+    FONT-SIZE:35PX;
+    MARGIN-LEFT:345PX;
+    MARGIN-TOP:-30PX;
+    COLOR:WHITE;
+}
+.TO{
+    MARGIN-LEFT:110PX;
+}
+.CONVERT_BTN{
+    background-color:lawngreen;
+    FONT-SIZE:25PX;
+    WIDTH:100%;
+    PADDING:20PX;
+    MARGIN-TOP:20PX;
+    MARGIN-BOTTOM:20PX;
+    BORDER-RADIUS:20PX;
+    BORDER:NONE;
+    DISPLAY:FLEX;
+    cursor: pointer;
+}
+.CONVERT_BTN SPAN{
+    margin-left: 32%;
+}
+.RESULT{
+    WIDTH:100%;
+    FONT-SIZE:30PX;
+    MARGIN-BOTTOM:20PX;
+    BORDER-RADIUS:10PX;
+    padding-inline-start: 20PX;
+    BORDER:NONE;
+}

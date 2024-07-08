@@ -1,0 +1,48 @@
+<HTML>
+    <HEAD>
+       <LINK REL="SHORTCUT ICON" TYPE="X-ICON" HREF="LOGO.png">
+       <!--- CSS SCRIPT --->
+       <LINK REL="STYLESHEET" HREF="STYLE.CSS">
+       <TITLE>RITZII</TITLE>
+    </HEAD>
+    <BODY>
+        <DIV CLASS="CONTAINER">
+            <DIV CLASS="CONVERTER">
+                <DIV CLASS="HEADING">
+                    <P>Temperature Converter</P>
+                </DIV>
+                <FORM>
+                    <DIV CLASS="COLUMN">
+                        <P>From :</P>
+                        <P>To :</P>
+                    </DIV>
+                    <DIV CLASS="COLUMN_LEFT">
+                        <INPUT TYPE="NUMBER" CLASS="INPUT_DEGREE" id="temperature">
+                        <SELECT NAME="UNIT" ID="from_unit" CLASS="INPUT_UNIT">
+                            <OPTION VALUE="">Select a Unit</OPTION>
+                            <OPTION VALUE="C">Celsius</OPTION>
+                            <OPTION VALUE="F">Fahrenheit</OPTION>
+                            <OPTION VALUE="K">Kelvin</OPTION>
+                            <OPTION VALUE="R">Rankine</OPTION>
+                        </SELECT>
+                        <SELECT NAME="UNIT" ID="to_unit" CLASS="INPUT_UNIT TO">
+                            <OPTION VALUE="">Select a Unit</OPTION>
+                            <OPTION VALUE="C">Celsius</OPTION>
+                            <OPTION VALUE="F">Fahrenheit</OPTION>
+                            <OPTION VALUE="K">Kelvin</OPTION>
+                            <OPTION VALUE="R">Rankine</OPTION>
+                        </SELECT>
+                    </DIV>
+                    <ion-icon name="arrow-redo-circle" CLASS="EMOJI"></ion-icon>
+                    <BUTTON TYPE="BUTTON" CLASS="CONVERT_BTN" onclick="convert()"><SPAN>CONVERT NOW !</SPAN></BUTTON>
+                    <INPUT TYPE="TEXT" id="result" CLASS="RESULT" READONLY>
+                </FORM>
+            </DIV>
+        </DIV>
+        <!--- IONICONS --->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!--- JAVASCRIPT --->
+        <SCRIPT SRC="SCRIPT.js"></SCRIPT>
+    </BODY>
+</HTML>
